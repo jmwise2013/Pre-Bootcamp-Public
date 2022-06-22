@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: lightgray;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+ul{
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
+li {
+    color: lightgray;
+    margin: 5px;
+    list-style-type: none;
+}
+
+.title_banner {
+    display: flex;
+    margin: 10px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.cover_art {
+    width: 350px;
+}
+
+/* Over the Years */
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, #6f797f, #37567a);
+}
+
+.card{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card_text{
+font-size: 19px;
+
+}
+
+.card_image {
+    height: 200px;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+}
